@@ -1,7 +1,7 @@
 #draw
 
 import turtle as tl
-
+# Dasha
 class Square:
   
   
@@ -70,21 +70,7 @@ class Parallelogram:
         tl.end_fill()
        # Dasha 
 
-class Circle:
-    def __init__(self, x, y, radius, color):
-        self.x = x
-        self.y = y
-        self.radius = radius
-        self.color = color
-    def show(self):
-        tl.up()
-        tl.goto(self.x, self.y)
-        tl.color(self.color)
-        tl.down()
-        tl.fillcolor(self.color)
-        tl.begin_fill()
-        tl.circle(self.radius)
-        tl.end_fill()
+
 
 
 #f1 = Parallelogram( 0, 0, 100, 110, "red", 45)
@@ -99,7 +85,5 @@ f3.show()
 f2 = Triangle(-10, 150, 170, "green")
 f2.show()
 
-f5 = Circle(75,45,30, "blue")
-f5.show()
 
 tl.mainloop()
