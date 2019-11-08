@@ -87,19 +87,19 @@ class Circle:
         tl.end_fill()
 
 
-#f1 = Parallelogram( 0, 0, 100, 110, "green", 45)
+#f1 = Parallelogram( 0, 0, 100, 110, "red", 45)
 #f1.show()
 
-#f2 = Triangle(0, 60, 60, "red")
+#f2 = Triangle(0, 60, 60, "black")
 #f2.show()
 
-f3= Square( 0, 0, 150, "pink")
+f3= Square( 0, 0, 150, "yellow")
 f3.show()
 
-f2 = Triangle(-10, 150, 170, "lightblue")
+f2 = Triangle(-10, 150, 170, "green")
 f2.show()
 
-f5 = Circle(75,45,30, "lightgreen")
+f5 = Circle(75,45,30, "blue")
 f5.show()
 
 tl.mainloop()
