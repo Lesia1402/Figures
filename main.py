@@ -68,7 +68,23 @@ class Parallelogram:
             tl.forward(self.length)
             tl.left(180-self.angle)
         tl.end_fill()
-       # Dasha 
+        
+       # Dasha Dana Lesia
+ class Circle:
+    def __init__(self, x, y, radius, color):
+        self.x = x
+        self.y = y
+        self.radius = radius
+        self.color = color
+    def show(self):
+        tl.up()
+        tl.goto(self.x, self.y)
+        tl.color(self.color)
+        tl.down()
+        tl.fillcolor(self.color)
+        tl.begin_fill()
+        tl.circle(self.radius)
+        tl.end_fill()
 
 
 
@@ -85,5 +101,7 @@ f3.show()
 f2 = Triangle(-10, 150, 170, "green")
 f2.show()
 
+f5 = Circle(75,45,30, "lightgreen")
+f5.show()
 
 tl.mainloop()
