@@ -40,25 +40,8 @@ class Square:
         tl.end_fill()
         
         
-    #  Dana
-    def __init__(self, x, y, size, color):
-        self.x = x
-        self.y = y
-        self.size = size
-        self.color = color
-
+ 
   
-    def show(self):
-        tl.up()
-        tl.goto(self.x, self.y)
-        tl.color(self.color)
-        tl.down()
-        tl.fillcolor(self.color)
-        tl.begin_fill()
-        for _ in range (3):
-            tl.forward(self.size)
-            tl.left(120)
-        tl.end_fill()
 
 class Parallelogram:
     def __init__(self, x, y, size, length, color, angle):
