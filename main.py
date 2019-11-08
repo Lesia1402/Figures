@@ -4,6 +4,12 @@ import turtle as tl
 # Dasha
 class Square:
   
+  def __init__(self, x, y, size, color):
+        self.x = x
+        self.y = y
+        self.size = size
+        self.color = color
+  
   
    def show(self):
         tl.up()
@@ -51,6 +57,7 @@ class Parallelogram:
         self.color = color
         self.angle = angle
         self.length = length
+        
     def show(self):
         tl.up()
         tl.goto(self.x, self.y)
